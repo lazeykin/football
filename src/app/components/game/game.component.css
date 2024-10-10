@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.canvas {
+  width: 419px;
+  height: 612px;
+}
+
+.score {
+  font-family: 'Open-Sans', sans-serif;
+  text-align: center;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .score {
+    font-size: 14px;
+  }
+}
